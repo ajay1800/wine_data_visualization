@@ -1,3 +1,16 @@
+# Data Visualization : An Wine Data Visualization app 
+
+This project calculate wine data base on Alcohol class and provide Mean, Median and Mode of wine data Flavanoids and Gamma data of wine.
+
+To Calculate Gamma = (Ash * Hue) / Magnesium.
+To Calculate Mean = addition of all array value / length or array
+To Calculate Median Two Types To Calculate It And It Depend on array length value and divide it by 2
+To Calculate Mode = Find Which Value is being repeted mostly on array
+
+## Tables Of Gamma And Flavanoids
+
+![alt table](table.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
