@@ -1,4 +1,4 @@
-# Data Visualization : An Wine Data Visualization app 
+# Data Visualization: An Wine Data Visualization app 
 
 This project calculate wine data base on Alcohol class and provide Mean, Median and Mode of wine data Flavanoids and Gamma data of wine. <br/>
 
@@ -9,7 +9,7 @@ To Calculate Mode = Find Which Value is being repeted mostly on array. <br/>
 
 ## Tables Of Gamma And Flavanoids
 
-![alt table](/assets/images/table.png)
+![table!](table.png)
 
 # Getting Started with Create React App
 
