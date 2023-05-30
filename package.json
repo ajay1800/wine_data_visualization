@@ -2,7 +2,7 @@
 	"name": "data-visulization-task",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://github.com/ajay1800/wine_data_visualization",
+	"homepage": "https://ajay1800.github.io/wine_data_visualization",
 	"dependencies": {
 		"@testing-library/react": "^13.0.0",
 		"@testing-library/user-event": "^13.2.1",
