@@ -9,7 +9,7 @@ To Calculate Mode = Find Which Value is being repeted mostly on array. <br/>
 
 ## Tables Of Gamma And Flavanoids
 
-![alt table](table.png)
+![alt table](/assets/images/table.png)
 
 # Getting Started with Create React App
 
