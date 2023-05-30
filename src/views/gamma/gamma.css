@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_data {
+    width: 95%;
+}
+
+.table_data table{
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+tr{
+    height: 80px;
+}
+
+th {
+    border: 3px solid black;
+}
+
+td{
+    border: 3px solid black
+}
