@@ -1,11 +1,11 @@
 # Data Visualization : An Wine Data Visualization app 
 
-This project calculate wine data base on Alcohol class and provide Mean, Median and Mode of wine data Flavanoids and Gamma data of wine.
+This project calculate wine data base on Alcohol class and provide Mean, Median and Mode of wine data Flavanoids and Gamma data of wine. <br/>
 
-To Calculate Gamma = (Ash * Hue) / Magnesium.
-To Calculate Mean = addition of all array value / length or array
-To Calculate Median Two Types To Calculate It And It Depend on array length value and divide it by 2
-To Calculate Mode = Find Which Value is being repeted mostly on array
+To Calculate Gamma = (Ash * Hue) / Magnesium. <br/>
+To Calculate Mean = addition of all array value / length or array <br/>
+To Calculate Median Two Types To Calculate It And It Depend on array length value and divide it by 2 <br/>
+To Calculate Mode = Find Which Value is being repeted mostly on array. <br/>
 
 ## Tables Of Gamma And Flavanoids
 
