@@ -13,17 +13,13 @@
 .table_data table{
     width: 100%;
     text-align: center;
-    border: 3px solid black;
 }
 
 tr{
     height: 80px;
 }
 
-th {
+table, th, td {
     border: 3px solid black;
-}
-
-td{
-    border: 3px solid black
-}
+    border-collapse: collapse;
+  }

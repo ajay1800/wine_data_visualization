@@ -23,7 +23,7 @@ const FlavanoidsContainer = () => {
 		const data = classData.map((item) =>
 			wineData
 				.filter((value) => value.Alcohol === item + 1)
-				.map((item) => +item.Flavanoids),
+				.map((item) => +item.Flavanoids )
 		);
 		setTableData(dataVisulation(data));
 	};

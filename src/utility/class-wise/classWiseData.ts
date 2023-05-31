@@ -10,7 +10,6 @@ export const wineClass = (value:number[]) => {
 }
 
 export const dataVisulation = (data:any[]) => {
-
     // Function for find mean of given data
 
     const mean = data.map((item,index) => (
@@ -22,8 +21,8 @@ export const dataVisulation = (data:any[]) => {
     const median = data.map((value) => {
       if(value.length % 2 === 0){
         const sortData = value.sort((a:number,b:number) => a-b)
-        const index = Math.floor(((sortData.length / 2) + ((sortData.length / 2) + 1)) / 2);
-        const medianData = sortData[index] + sortData[index + 1] / 2;
+        const index = Math.floor(sortData.length / 2);
+        const medianData = (sortData[index] + sortData[index + 1]) / 2;
         return medianData;
       }
       else {

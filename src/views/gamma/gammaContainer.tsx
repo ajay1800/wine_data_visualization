@@ -7,15 +7,10 @@ import {
 } from '../../utility/class-wise/classWiseData';
 
 const GammaContainer = () => {
-	const [gammaData, setGammaData] = useState<number[]>([]);
 	const [classData, setClassData] = useState<number[]>([]);
 	const [tableData, setTableData] = useState<any[]>([]);
 
 	useEffect(() => {
-		const gamma = wineData.map(
-			(item) => (+item.Ash * item.Hue) / item.Magnesium,
-		);
-		setGammaData(gamma);
 		setClassData(wineClass(wineData.map((item) => item.Alcohol)));
 	}, []);
 
@@ -24,14 +19,14 @@ const GammaContainer = () => {
 		const data = classData.map((item) =>
 			wineData
 				.filter((value) => value.Alcohol === item + 1)
-				.map((item) => (+item.Ash * item.Hue) / item.Magnesium),
+				.map((item) => +((+item.Ash * item.Hue) / item.Magnesium).toFixed(3)),
 		);
 		setTableData(dataVisulation(data));
 	};
 
 	useEffect(() => {
 		classData.length > 0 && divideData(classData);
-	}, [gammaData, classData]);
+	}, [ classData]);
 
 	return <GammaComponent classData={classData} tableData={tableData} />;
 };
